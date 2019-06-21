@@ -21,3 +21,17 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
         - [x] Type interface
         - [x] Constants
         - [x] Numeric Constants
+    - Flow control statements: for, if, else, switch and defer
+        - [x] For
+        - [x] For continued
+        - [x] For is Go's "while"
+        - [x] Forever
+        - [x] If
+        - [x] If with a short statement
+        - [x] If and else
+        - [x] Switch
+        - [x] Switch evaluation order
+        - [x] Switch with no condition
+        - [x] Defer
+        - [x] Stacking defers
+
