@@ -34,4 +34,59 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
         - [x] Switch with no condition
         - [x] Defer
         - [x] Stacking defers
-
+    - More types: structs, slices, and maps.
+        - [ ] Pointers
+        - [ ] Structs
+        - [ ] Structs Fields
+        - [ ] Pointers to structs
+        - [ ] Struct Literals
+        - [ ] Arrays
+        - [ ] Slices
+        - [ ] Slices are like references to arrays
+        - [ ] Slice literals
+        - [ ] Slice defaults
+        - [ ] Slice length and capacity
+        - [ ] Nil slices
+        - [ ] Creating a slice with make
+        - [ ] Slices of slices
+        - [ ] Appending to a slice
+        - [ ] Range
+        - [ ] Range continued
+        - [ ] Maps
+        - [ ] Map literals
+        - [ ] Map literals continued
+        - [ ] Mutating Maps
+        - [ ] Function values
+        - [ ] FUnction closures
+- Methods and interfaces
+    - Methods and interfaces
+        - [ ] Methods
+        - [ ] Methods are functions
+        - [ ] Methods continued
+        - [ ] Pointer receivers
+        - [ ] Pointers and functions
+        - [ ] Methods and pointer indirection
+        - [ ] Methods and pointer indirection (2)
+        - [ ] Choosing a value or pointer receiver
+        - [ ] Interfaces
+        - [ ] Interfaces are implemented implicity
+        - [ ] Interface values
+        - [ ] Interface values with nil underlying values
+        - [ ] Nil interface values
+        - [ ] The empty interface
+        - [ ] Type assertions
+        - [ ] Type switches
+        - [ ] Stringers
+        - [ ] Errors
+        - [ ] Readers
+        - [ ] Images
+- Concurrency
+    - Concurrency
+        - [ ] Goroutines
+        - [ ] Channels
+        - [ ] Buffered Channels
+        - [ ] Range and Close
+        - [ ] Select
+        - [ ] Default Selection
+        - [ ] sync.Mutex
+        - [ ] Where to Go from here
