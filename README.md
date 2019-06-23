@@ -35,42 +35,42 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
         - [x] Defer
         - [x] Stacking defers
     - More types: structs, slices, and maps.
-        - [ ] Pointers
-        - [ ] Structs
-        - [ ] Structs Fields
-        - [ ] Pointers to structs
-        - [ ] Struct Literals
-        - [ ] Arrays
-        - [ ] Slices
-        - [ ] Slices are like references to arrays
-        - [ ] Slice literals
-        - [ ] Slice defaults
-        - [ ] Slice length and capacity
-        - [ ] Nil slices
-        - [ ] Creating a slice with make
-        - [ ] Slices of slices
-        - [ ] Appending to a slice
-        - [ ] Range
-        - [ ] Range continued
-        - [ ] Maps
-        - [ ] Map literals
-        - [ ] Map literals continued
-        - [ ] Mutating Maps
-        - [ ] Function values
-        - [ ] FUnction closures
+        - [x] Pointers
+        - [x] Structs
+        - [x] Structs Fields
+        - [x] Pointers to structs
+        - [x] Struct Literals
+        - [x] Arrays
+        - [x] Slices
+        - [x] Slices are like references to arrays
+        - [x] Slice literals
+        - [x] Slice defaults
+        - [x] Slice length and capacity
+        - [x] Nil slices
+        - [x] Creating a slice with make
+        - [x] Slices of slices
+        - [x] Appending to a slice
+        - [x] Range
+        - [x] Range continued
+        - [x] Maps
+        - [x] Map literals
+        - [x] Map literals continued
+        - [x] Mutating Maps
+        - [x] Function values
+        - [x] Function closures
 - Methods and interfaces
     - Methods and interfaces
-        - [ ] Methods
-        - [ ] Methods are functions
-        - [ ] Methods continued
-        - [ ] Pointer receivers
-        - [ ] Pointers and functions
-        - [ ] Methods and pointer indirection
-        - [ ] Methods and pointer indirection (2)
-        - [ ] Choosing a value or pointer receiver
-        - [ ] Interfaces
-        - [ ] Interfaces are implemented implicity
-        - [ ] Interface values
+        - [x] Methods
+        - [x] Methods are functions
+        - [x] Methods continued
+        - [x] Pointer receivers
+        - [x] Pointers and functions
+        - [x] Methods and pointer indirection
+        - [x] Methods and pointer indirection (2)
+        - [x] Choosing a value or pointer receiver
+        - [x] Interfaces
+        - [x] Interfaces are implemented implicity
+        - [x] Interface values
         - [ ] Interface values with nil underlying values
         - [ ] Nil interface values
         - [ ] The empty interface
