@@ -95,7 +95,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Slices
     - [x] Maps
     - [x] Fibonacci closure
-    - [ ] Stringers
+    - [x] Stringers
     - [ ] Errors
     - [ ] Readers
     - [ ] rot13Reader
