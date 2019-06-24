@@ -91,8 +91,8 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
         - [x] sync.Mutex
         - [x] Where to Go from here
 - Exercise
-    - [ ] Loops and Functions
-    - [ ] Slices
+    - [x] Loops and Functions
+    - [x] Slices
     - [ ] Maps
     - [ ] Fibonacci closure
     - [ ] Stringers
