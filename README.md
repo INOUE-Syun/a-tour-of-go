@@ -71,22 +71,35 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
         - [x] Interfaces
         - [x] Interfaces are implemented implicity
         - [x] Interface values
-        - [ ] Interface values with nil underlying values
-        - [ ] Nil interface values
-        - [ ] The empty interface
-        - [ ] Type assertions
-        - [ ] Type switches
-        - [ ] Stringers
-        - [ ] Errors
-        - [ ] Readers
-        - [ ] Images
+        - [x] Interface values with nil underlying values
+        - [x] Nil interface values
+        - [x] The empty interface
+        - [x] Type assertions
+        - [x] Type switches
+        - [x] Stringers
+        - [x] Errors
+        - [x] Readers
+        - [x] Images
 - Concurrency
     - Concurrency
-        - [ ] Goroutines
-        - [ ] Channels
-        - [ ] Buffered Channels
-        - [ ] Range and Close
-        - [ ] Select
-        - [ ] Default Selection
-        - [ ] sync.Mutex
-        - [ ] Where to Go from here
+        - [x] Goroutines
+        - [x] Channels
+        - [x] Buffered Channels
+        - [x] Range and Close
+        - [x] Select
+        - [x] Default Selection
+        - [x] sync.Mutex
+        - [x] Where to Go from here
+- Exercise
+    - [ ] Loops and Functions
+    - [ ] Slices
+    - [ ] Maps
+    - [ ] Fibonacci closure
+    - [ ] Stringers
+    - [ ] Errors
+    - [ ] Readers
+    - [ ] rot13Reader
+    - [ ] Images
+    - [ ] Equivalent Binary Trees
+    - [ ] Equivalent Binary Trees - 2
+    - [ ] Web Crawler
