@@ -94,7 +94,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Loops and Functions
     - [x] Slices
     - [x] Maps
-    - [ ] Fibonacci closure
+    - [x] Fibonacci closure
     - [ ] Stringers
     - [ ] Errors
     - [ ] Readers
@@ -103,3 +103,4 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [ ] Equivalent Binary Trees
     - [ ] Equivalent Binary Trees - 2
     - [ ] Web Crawler
+
