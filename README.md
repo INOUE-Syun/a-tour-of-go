@@ -98,7 +98,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Stringers
     - [x] Errors
     - [x] Readers
-    - [ ] rot13Reader
+    - [x] rot13Reader
     - [ ] Images
     - [ ] Equivalent Binary Trees
     - [ ] Equivalent Binary Trees - 2
