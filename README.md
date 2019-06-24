@@ -93,7 +93,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
 - Exercise
     - [x] Loops and Functions
     - [x] Slices
-    - [ ] Maps
+    - [x] Maps
     - [ ] Fibonacci closure
     - [ ] Stringers
     - [ ] Errors
