@@ -97,7 +97,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Fibonacci closure
     - [x] Stringers
     - [x] Errors
-    - [ ] Readers
+    - [x] Readers
     - [ ] rot13Reader
     - [ ] Images
     - [ ] Equivalent Binary Trees
