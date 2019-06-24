@@ -96,7 +96,7 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Maps
     - [x] Fibonacci closure
     - [x] Stringers
-    - [ ] Errors
+    - [x] Errors
     - [ ] Readers
     - [ ] rot13Reader
     - [ ] Images
