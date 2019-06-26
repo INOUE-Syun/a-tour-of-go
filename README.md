@@ -99,8 +99,6 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] Errors
     - [x] Readers
     - [x] rot13Reader
-    - [ ] Images
-    - [ ] Equivalent Binary Trees
-    - [ ] Equivalent Binary Trees - 2
+    - [x] Image
+    - [x] Equivalent Binary Trees
     - [ ] Web Crawler
-
