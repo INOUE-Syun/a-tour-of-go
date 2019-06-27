@@ -101,4 +101,4 @@ Golang practice based `A Tour of Go (https://tour.golang.org)`
     - [x] rot13Reader
     - [x] Image
     - [x] Equivalent Binary Trees
-    - [ ] Web Crawler
+    - [x] Web Crawler

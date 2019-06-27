@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sync"
 )
 
 type Fetcher interface {
@@ -10,23 +11,56 @@ type Fetcher interface {
 	Fetch(url string) (body string, urls []string, err error)
 }
 
+type SafeCache struct {
+	fetched map[string]struct{} // Url is cachekey
+	mux     sync.Mutex
+}
+
+func (sc *SafeCache) AddCache(k string) {
+	sc.mux.Lock()
+	sc.fetched[k] = struct{}{}
+	sc.mux.Unlock()
+}
+
+func (sc *SafeCache) HasCache(k string) bool {
+	sc.mux.Lock()
+	defer sc.mux.Unlock()
+	_, has := sc.fetched[k]
+	return has
+}
+
 // Crawl uses fetcher to recursively crawl
 // pages starting with url, to a maximum depth.
 func Crawl(url string, depth int, fetcher Fetcher) {
-	// TODO: Fetch URLs in parallel.
-	// TODO: Don't fetch the same URL twice.
-	if depth <= 0 {
-		return
+	cache := &SafeCache{fetched: make(map[string]struct{})}
+
+	var wg sync.WaitGroup
+	var worker func(string, int)
+
+	worker = func(url string, depth int) {
+		if cache.HasCache(url) || depth <= 0 {
+			return
+		}
+		cache.AddCache(url)
+
+		body, urls, err := fetcher.Fetch(url)
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		fmt.Printf("found: %s %q\n", url, body)
+
+		wg.Add(len(urls))
+		for _, url := range urls {
+			go func(u string) {
+				worker(u, depth-1)
+				wg.Done()
+			}(url)
+		}
 	}
-	body, urls, err := fetcher.Fetch(url)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Printf("found: %s %q\n", url, body)
-	for _, u := range urls {
-		Crawl(u, depth-1, fetcher)
-	}
-	return
+
+	worker(url, depth)
+	wg.Wait()
 }
 
 func main() {
